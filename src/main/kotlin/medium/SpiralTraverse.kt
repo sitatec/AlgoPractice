@@ -1,7 +1,7 @@
 package medium
 
 fun spiralTraverse(array: List<List<Int>>): List<Int> {
-    if(array.size == 0) return listOf<Int>()
+    if(array.isEmpty()) return listOf<Int>()
 
     var result = mutableListOf<Int>()
 
