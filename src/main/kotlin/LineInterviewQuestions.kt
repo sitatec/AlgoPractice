@@ -68,7 +68,7 @@ fun printGetRunningProcessesAt() {
 
 // -------------------------- TASK 5 ------------------------- //
 
-class HomeMadMap<K, V>() {
+class HomeMadeMap<K, V>() {
 
     var size: Int = 0
     private var mapContent = List<LinkedList<Pair<K, V>>>(0) { LinkedList() }
